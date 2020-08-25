@@ -1,0 +1,50 @@
+.outerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1A1A1D;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 14px;
+    height: 85%;
+    margin: 2%;
+
+  }
+
+  
+
+
+
+
+
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    .outerContainer {
+      height: 100%;
+    }
+  
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      background: #FFFFFF;
+      border-radius: 14px;
+      height: 85%;
+
+
+
+
+    }
+  }
+  
+  @media (min-width: 480px) and (max-width: 1800px) {
+    .container {
+      width: 60%;
+    }
+  }
